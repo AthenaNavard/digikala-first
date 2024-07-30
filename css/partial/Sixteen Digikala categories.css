@@ -1,0 +1,41 @@
+.Sixteen__Digikala__categories__title{
+    font-family: var(--IRANSans);
+    font-size: 21px;
+    text-align: center;
+    padding: 15px 0px 40px 0px;
+}
+
+.Sixteen__Digikala__categories__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sixteen__Digikala__categories__container__item {
+    font-family: var(--IRANSans);
+    font-size: 11px;
+    text-align: center;
+    margin: 0px 15px 5px 15px;
+    padding: 0 20px;
+
+}
+
+.Sixteen__Digikala__categories__image {
+    height: 90px;
+    width: 90px;
+}
+
+.Sixteen__Digikala__categories__bottom__part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    .bottom__part__banner{
+    width: 644px;
+    height: 257px;
+    margin-right: 16px;
+    border-radius: 15px;
+    }
+}

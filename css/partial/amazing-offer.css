@@ -1,0 +1,117 @@
+.amazing {
+    width: 100%;
+    height: 340px;
+    padding: 20px;
+
+
+    .amazing__center {
+        width: 1340px;
+        height: 300px;
+        background-color: crimson;
+        margin: 0 auto;
+        border-radius: 15px;
+        padding: 20px 3px;
+
+        .swiper {
+            width: 100%;
+            height: 100%;
+        }
+
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .swiper-slide-item {
+                display: flex;
+                flex-flow: column wrap;
+                row-gap: 15px;
+                align-items: center;
+            }
+
+            .swiper-sider-product {
+                display: flex;
+                padding: 10px;
+                flex-flow: column wrap;
+                row-gap: 0px;
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                    margin-bottom: 10px;
+                }
+
+                div {
+                    display: flex;
+                    flex-flow: row-reverse wrap;
+                    justify-content: space-between;
+
+                    h5 {
+                        color: #2b2b2b;
+                        font-family: var(--IRANSans);
+                        font-size: 16px;
+                        font-weight: normal;
+                    }
+
+                    h6 {
+                        font-family: var(--IRANSans);
+                        font-size: 14px;
+                        font-weight: normal;
+                        background-color: crimson;
+                        padding: 4px 10px;
+                        border-radius: 20px;
+                        color: whitesmoke;
+                    }
+                }
+
+                .realPrice {
+                    color: rgb(184, 180, 180);
+                    font-size: 12px;
+                    font-family: var(--IRANSans);
+                    font-weight: normal;
+                    text-align: left;
+                    text-decoration: line-through;
+                }
+            }
+        }
+
+        .swiper-slide img {
+            /* display: block;
+            width: 100%;
+            height: 100%; */
+            object-fit: cover;
+        }
+    }
+}
+
+.active {
+    background-color: crimson !important;
+
+    .image__item1 {
+        width: 92px !important;
+        height: 77px !important;
+    }
+
+    .image__item2 {
+        width: 145px !important;
+        height: 115px !important;
+    }
+
+    .item__link {
+        font-family: var(--IRANSans);
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 11px;
+    }
+}
+
+.bRTrBr {
+    border-radius: 0 15px 15px 0;
+}
+
+.bRTlBl {
+    border-radius: 15px 0 0 15px;
+}
