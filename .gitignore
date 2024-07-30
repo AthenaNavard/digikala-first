@@ -1,5 +1,5 @@
 # نادیده گرفتن پوشه‌های Node.js
-node_modules/
+# node_modules/
 
 # نادیده گرفتن تنظیمات IDE
 .vscode/
